@@ -1,0 +1,51 @@
+body, html{
+    height:100%;
+    margin:0;
+}
+.bg{
+    background-image: url("../images/bg-blur.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn {
+    font-weight: 600;
+}
+.btn-outline-primary {
+    /* margin:8px; */
+    /* padding: 0px 15px 0px 15px; */
+    color: white;
+    border-color: white;
+  }
+  .btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0.25);
+  }
+  .btn-outline-danger{
+      /* margin:8px; */
+      /* padding: 0px 15px 0px 15px; */
+      color: whitesmoke;
+      border-color: white;
+  }
+  .list-group-item {
+    background-color: transparent;
+    border-color: white;
+    color:whitesmoke;
+    padding-top: 0rem;
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+  }
+  .display-5 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .w-n {
+    width: 45% !important;
+  }
+  .badge-pill {
+    padding-right: 0 em;
+    background-color: white;
+  }
